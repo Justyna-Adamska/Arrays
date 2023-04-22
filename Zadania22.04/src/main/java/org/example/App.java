@@ -64,15 +64,33 @@ public class App {
 //        for (int number2 : numbers2) {
 //            sum.add(number2);
 //        }
-        HashSet<Integer> inter1 = new HashSet<>();
-        
-        inter1 = sum.remove(sum1);
-        HashSet<Integer> inter2 = new HashSet<>();
-        inter2 = inter1.remove(sum2);
+//        HashSet<Integer> inter1 = new HashSet<>();
+//
+//        inter1 = sum.remove(sum1);
+//        HashSet<Integer> inter2 = new HashSet<>();
+//        inter2 = inter1.remove(sum2);
+/////////
+//        HashSet<Integer> sum3 = new HashSet<>();
+//
+//        for (int number : numbers) {
+//            sum3.add(number);
+//
+//        }
+//        for (int number2 : numbers2) {
+//            sum3.add(number2);
+//
+//        }
+        for (int number : numbers) {
+            for (int number2 : numbers2) {
+                if (number == number2) {
+                    System.out.println(number);
+                }
+            }
+        }
 
-        HashSet<Integer> sum3 = new HashSet<>();
-        sum3 = sum1.add(sum2);
-        System.out.println();
+        //////////////
+
+
     }
 }
 
