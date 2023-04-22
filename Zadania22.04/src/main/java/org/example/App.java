@@ -83,6 +83,8 @@ public class App {
         for (int number : numbers) {
             for (int number2 : numbers2) {
                 if (number == number2) {
+//                    HashSet<Integer> inter = new HashSet<>();
+//                    inter = number;
                     System.out.println(number);
                 }
             }
